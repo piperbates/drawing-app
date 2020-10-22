@@ -28,16 +28,24 @@ if(!painting) {return};
     ctx.moveTo(e.clientX, e.clientY)
   }
 
+ 
+  }
+
+
+
 
 
   // listeners
   canvas.addEventListener("mousedown", startPosition);
   canvas.addEventListener("touchstart", startPosition);
-  canvas.addEventListener("mouseup", finishPosition);
-  canvas.addEventListener("touchend", finishPosition);
+
+  window.addEventListener("mouseup", finishPosition);
+  window.addEventListener("touchend", finishPosition);
+
   canvas.addEventListener("mousemove", draw);
   canvas.addEventListener("touchmove", draw);
 }
+
 
 
 
