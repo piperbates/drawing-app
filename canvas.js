@@ -21,8 +21,8 @@ if(!painting) {return};
     ctx.lineWidth = brushSize;
     ctx.lineCap = capShape;
 
-    let xoffset = 55;
-    let yoffset = 70;
+    let xoffset = 60;
+    let yoffset = 60;
     ctx.lineTo(e.clientX - xoffset, e.clientY - yoffset)
     ctx.strokeStyle = color;
     ctx.stroke();

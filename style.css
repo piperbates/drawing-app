@@ -1,11 +1,15 @@
-/* * {
+* {
   margin: 0;
   padding: 0px;
   box-sizing: border-box;
-} */
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin:10px
 }
 
 #canvas {
@@ -13,33 +17,43 @@ body {
     padding: 0px;
     position: absolute;
     left: 60px;
+    margin: 0px;padding:0px;
   }
 
 #selectedColor{
     position: absolute;
-    top: 84px;
-    right: 40px;
+    top: 60px;
+    right: 39px;
     padding: 5px;
     margin: 0px;
-    border: 2px solid black;
-    width: 10px;
-    height: 10px;
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
     border-radius: 25%;
 }
 
 #button-box{
-    width: 50px;
+    width: 61px;
     position: absolute;
-    top: 80px;
+    top: 57px;
+    left: 2px;
 }
 
-.colorButton {
-    width: 50px;
-    height: 30px;
-    font-size: 12px;
+.colorButton { 
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding:0px;
+    background-color: white;
+    
+    border: 0px;
+}
+
+.button {
     text-transform: capitalize;
     background-color: white;
-    padding: 0px; margin: 0px;
+    
+    border: 1px solid black;
 }
 
 #blue {
@@ -89,42 +103,72 @@ body {
 .blueSelect{
     background-color: blue;
     color: white;
+    border: black;
 }
 
 .redSelect{
     background-color: red;
     color: white;
+    border: black;
 }
 
 .yellowSelect{
     background-color: yellow;
     color: white;
+    border: black;
 }
 
 .greenSelect{
     background-color: green;
     color: white;
+    border: black;
 }
 
 .purpleSelect{
     background-color: purple;
     color: white;
+    border: black;
 }
 
 
 .brownSelect{
     background-color: brown;
     color: white;
+    border: black;
 }
 
 
 .blackSelect{
     background-color: black;
     color: white;
+    border: white;
 }
 
 
 .whiteSelect{
     background-color: white;
     color: black;
+    border: black;
+}
+
+.sml-dot {
+    height: 5px;
+    width: 5px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.med-dot {
+    height: 10px;
+    width: 10px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.lrg-dot {
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    border-radius: 50%;
+    display: inline-block;
 }

@@ -14,3 +14,5 @@ medButton.addEventListener("click", sizeChangeMed)
 largeButton.addEventListener("click", sizeChangeLarge)
 
 fill.addEventListener("click", changeBg)
+
+resetButton.addEventListener("click", deleteAll)

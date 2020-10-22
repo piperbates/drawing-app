@@ -5,4 +5,7 @@ function deleteAll(){
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     color = black;
     backgroundColor = white;
+    selectedColor.className = "";
+    selectedColor.classList.add("blackSelect");
+
 }
