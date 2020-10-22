@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button-box{
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+}
+
+button {
+    width: 190px;
+    height: 100px;
+    font-size: 50px;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+#blue {
+    background: blue;
+    color: white;
+ 
+}
+
+#red {
+    background: red;
+    color: white;
+ 
+}
+
+#yellow {
+    background: yellow;
+    color: black;
+ 
+}
+
+#green {
+    background: green;
+    color: white;
+}
+
+
+#purple {
+    background: purple;
+    color: white;
+}
+#brown {
+    background: brown;
+    color: white;
+}
+#black {
+    background: black;
+    color: white;
+}
+
+#white {
+    background: white;
+    color: black;
+}
+
+
+
+
+
+#canvas {
+  border: 2px solid black;
+}
