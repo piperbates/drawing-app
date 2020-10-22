@@ -1,11 +1,10 @@
-* {
+/* * {
   margin: 0;
   padding: 0px;
   box-sizing: border-box;
-}
+} */
 
 body {
-    font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,11 +16,12 @@ body {
 }
 
 button {
-    width: 190px;
-    height: 100px;
-    font-size: 50px;
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
     text-transform: capitalize;
     background-color: white;
+    padding: 0px; margin: 0px;
 }
 
 #blue {
@@ -66,10 +66,7 @@ button {
     color: black;
 }
 
-
-
-
-
 #canvas {
   border: 2px solid black;
+  padding: 0px;
 }

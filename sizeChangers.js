@@ -1,15 +1,15 @@
-let brushSize = 20;
+let brushSize = 5;
 
 function sizeChangeSmall(){
-    brushSize = 10;
+    brushSize = 5;
 }
 
 function sizeChangeMed(){
-    brushSize = 20;
+    brushSize = 10;
 }
 
 function sizeChangeLarge(){
-    brushSize = 50;
+    brushSize = 20;
 }
 
 
