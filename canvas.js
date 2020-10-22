@@ -1,8 +1,8 @@
 function board() {
   const canvas = document.querySelector("#canvas");
   const ctx = canvas.getContext("2d");
-  canvas.height = 500;
-  canvas.width = 500;
+  canvas.height = window.innerHeight-100;
+  canvas.width = window.innerWidth-100;
 
   let painting = false;
 
@@ -21,11 +21,13 @@ if(!painting) {return};
     ctx.lineWidth = brushSize;
     ctx.lineCap = capShape;
 
-    ctx.lineTo(e.clientX, e.clientY)
+    let xoffset = 55;
+    let yoffset = 70;
+    ctx.lineTo(e.clientX - xoffset, e.clientY - yoffset)
     ctx.strokeStyle = color;
     ctx.stroke();
     ctx.beginPath();
-    ctx.moveTo(e.clientX, e.clientY)
+    ctx.moveTo(e.clientX - xoffset, e.clientY - yoffset)
   }
 
 
