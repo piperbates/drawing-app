@@ -1,8 +1,8 @@
 function board() {
   const canvas = document.querySelector("#canvas");
   const ctx = canvas.getContext("2d");
-  canvas.height = 1500;
-  canvas.width = 2000;
+  canvas.height = 500;
+  canvas.width = 500;
 
   let painting = false;
 
