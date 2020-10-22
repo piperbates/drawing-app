@@ -1,6 +1,5 @@
-# drawing-app
+# PIPERS DRAWING APP
 
-*** PIPERS DRAWING APP ***
 Welcome to my drawing app, created during week five of my School of Code bootcamp experience. 
 
 Used the HTML5 canvas and javascript to create a basic drawing app.

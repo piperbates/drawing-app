@@ -28,9 +28,6 @@ if(!painting) {return};
     ctx.moveTo(e.clientX, e.clientY)
   }
 
- 
-  }
-
 
 
 
@@ -45,6 +42,7 @@ if(!painting) {return};
   canvas.addEventListener("mousemove", draw);
   canvas.addEventListener("touchmove", draw);
 }
+
 
 
 

@@ -6,6 +6,9 @@ let purpleButton = document.querySelector("#purple")
 let brownButton = document.querySelector("#brown")
 let blackButton = document.querySelector("#black")
 let whiteButton = document.querySelector("#white")
+
+let selectedColor = document.querySelector("#selectedColor")
+
 blueButton.addEventListener("click", blue)
 redButton.addEventListener("click", red)
 yellowButton.addEventListener("click",yellow)
@@ -20,27 +23,44 @@ let backgroundColor = color;
 
 function blue(){
     color = "blue"
+    selectedColor.className = "";
+    selectedColor.classList.add("blueSelect");
+
 }
 function red(){
     color = "red"
+    selectedColor.className = "";
+    selectedColor.classList.add("redSelect");
 }
 function yellow(){
     color = "yellow"
+    selectedColor.className = "";
+    selectedColor.classList.add("yellowSelect");
 }
 function green(){
     color = "green"
+    selectedColor.className = "";
+    selectedColor.classList.add("greenSelect");
 }
 function purple(){
     color = "purple"
+    selectedColor.className = "";
+    selectedColor.classList.add("purpleSelect");
 }
 function brown(){
     color = "brown"
+    selectedColor.className = "";
+    selectedColor.classList.add("brownSelect");
 }
 function black(){
     color = "black"
+    selectedColor.className = "";
+    selectedColor.classList.add("blackSelect");
 }
 function white(){
     color = "white"
+    selectedColor.className = "";
+    selectedColor.classList.add("whiteSelect");
 }
 
 

@@ -8,6 +8,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#selectedColor{
+    position: absolute;
+    top: 11px;
+    left: 485px;
+    padding: 5px;
+    margin: 0px;
+    border: 2px solid black;
+    width: 10px;
+    height: 10px;
+    border-radius: 25%;
+}
+
 #button-box{
     width: 100px;
     position: absolute;
@@ -15,7 +27,7 @@ body {
     padding: 10px;
 }
 
-button {
+.colorButton {
     width: 50px;
     height: 30px;
     font-size: 12px;
@@ -69,4 +81,47 @@ button {
 #canvas {
   border: 2px solid black;
   padding: 0px;
+}
+
+.blueSelect{
+    background-color: blue;
+    color: white;
+}
+
+.redSelect{
+    background-color: red;
+    color: white;
+}
+
+.yellowSelect{
+    background-color: yellow;
+    color: white;
+}
+
+.greenSelect{
+    background-color: green;
+    color: white;
+}
+
+.purpleSelect{
+    background-color: purple;
+    color: white;
+}
+
+
+.brownSelect{
+    background-color: brown;
+    color: white;
+}
+
+
+.blackSelect{
+    background-color: black;
+    color: white;
+}
+
+
+.whiteSelect{
+    background-color: white;
+    color: black;
 }
