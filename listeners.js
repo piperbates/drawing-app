@@ -16,3 +16,12 @@ largeButton.addEventListener("click", sizeChangeLarge)
 fill.addEventListener("click", changeBg)
 
 resetButton.addEventListener("click", deleteAll)
+
+//Save
+const save = document.querySelector("#save");
+const canvas = document.querySelector("#canvas");
+// function saveImg () {
+//    return canvas.toDataURL();
+//   };
+
+//   save.addEventListener("click", saveImg)

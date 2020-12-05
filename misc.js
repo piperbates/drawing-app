@@ -9,3 +9,4 @@ function deleteAll(){
     selectedColor.classList.add("blackSelect");
 
 }
+
