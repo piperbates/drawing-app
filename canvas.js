@@ -30,7 +30,10 @@ if(!painting) {return};
     ctx.moveTo(e.clientX - xoffset, e.clientY - yoffset)
   }
 
-
+  function newSave(){
+    finishPosition();
+    addToHistory();
+  }
 
 
 
@@ -38,8 +41,8 @@ if(!painting) {return};
   canvas.addEventListener("mousedown", startPosition);
   canvas.addEventListener("touchstart", startPosition);
 
-  window.addEventListener("mouseup", finishPosition);
-  window.addEventListener("touchend", finishPosition);
+  canvas.addEventListener("mouseup", newSave);
+  canvas.addEventListener("touchend", newSave);
 
   canvas.addEventListener("mousemove", draw);
   canvas.addEventListener("touchmove", draw);

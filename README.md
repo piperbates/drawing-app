@@ -22,18 +22,18 @@ View live project: https://piperbates.github.io/drawing-app/
 ## PROJECT GOALS
 
 *** MVP *** 
-* Basic drawing app where you can draw on the the canvas (Done)
-* Change the colour and size of the brush (Done)
-* Fill the canvas with a solid colour (Done)
+- [x] Basic drawing app where you can draw on the the canvas (Done)
+- [x] Change the colour and size of the brush (Done)
+- [x] Fill the canvas with a solid colour (Done)
 
 *** Additional Features to Add ***
-* Icons instead of text for options
-* Save image to desktop / share image
+- [ ] Icons instead of text for options
+- [x] Save image to desktop / share image
 
 *** Stretch Goals ***
-* Touch screen implimentation
-* Insert shapes, such as rectangle, circle etc
-* Fill bucket that matches to already drawn pixels
-* Would be quite nice to have somewhere where users can upload their creations to some kind of gallery
+- [ ] Touch screen implimentation
+- [ ] Insert shapes, such as rectangle, circle etc
+- [ ] Fill bucket that matches to already drawn pixels
+- [ ] Would be quite nice to have somewhere where users can upload their creations to some kind of gallery
 
 
