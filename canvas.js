@@ -32,7 +32,7 @@ if(!painting) {return};
 
   function newSave(){
     finishPosition();
-    addToHistory();
+    // addToHistory();
   }
 
 

@@ -1,68 +1,33 @@
-let blueButton = document.querySelector("#blue")
-let redButton = document.querySelector("#red")
-let yellowButton = document.querySelector("#yellow")
-let greenButton = document.querySelector("#green")
-let purpleButton = document.querySelector("#purple")
-let brownButton = document.querySelector("#brown")
-let blackButton = document.querySelector("#black")
-let whiteButton = document.querySelector("#white")
+let blueButton = document.querySelector("#blue");
+let redButton = document.querySelector("#red");
+let yellowButton = document.querySelector("#yellow");
+let greenButton = document.querySelector("#green");
+let purpleButton = document.querySelector("#purple");
+let brownButton = document.querySelector("#brown");
+let blackButton = document.querySelector("#black");
+let whiteButton = document.querySelector("#white");
+let fillButton=document.querySelector("#fill");
 
-let selectedColor = document.querySelector("#selectedColor")
+let selectedColor = document.querySelector("#selectedColor");
+let color = "black";
 
-blueButton.addEventListener("click", blue)
-redButton.addEventListener("click", red)
-yellowButton.addEventListener("click",yellow)
-greenButton.addEventListener("click", green)
-purpleButton.addEventListener("click", purple)
-brownButton.addEventListener("click", brown)
-blackButton.addEventListener("click", black)
-whiteButton.addEventListener("click", white)
+blueButton.addEventListener("click", ()=>colorChanger("blue"));
+redButton.addEventListener("click", ()=>colorChanger("red"));
+yellowButton.addEventListener("click",()=>colorChanger("yellow"));
+greenButton.addEventListener("click", ()=>colorChanger("green"));
+purpleButton.addEventListener("click", ()=>colorChanger("purple"));
+brownButton.addEventListener("click", ()=>colorChanger("brown"));
+blackButton.addEventListener("click", ()=>colorChanger("black"));
+whiteButton.addEventListener("click", ()=>colorChanger("white"));
 
-let color = "black"
 let backgroundColor = color;
 
-function blue(){
-    color = "blue"
+function colorChanger (pressedColor) {
+    color=pressedColor;
     selectedColor.className = "";
-    selectedColor.classList.add("blueSelect");
-
+    selectedColor.classList.add(`${color}Select`);
+    fillButton.style.backgroundColor=color;
 }
-function red(){
-    color = "red"
-    selectedColor.className = "";
-    selectedColor.classList.add("redSelect");
-}
-function yellow(){
-    color = "yellow"
-    selectedColor.className = "";
-    selectedColor.classList.add("yellowSelect");
-}
-function green(){
-    color = "green"
-    selectedColor.className = "";
-    selectedColor.classList.add("greenSelect");
-}
-function purple(){
-    color = "purple"
-    selectedColor.className = "";
-    selectedColor.classList.add("purpleSelect");
-}
-function brown(){
-    color = "brown"
-    selectedColor.className = "";
-    selectedColor.classList.add("brownSelect");
-}
-function black(){
-    color = "black"
-    selectedColor.className = "";
-    selectedColor.classList.add("blackSelect");
-}
-function white(){
-    color = "white"
-    selectedColor.className = "";
-    selectedColor.classList.add("whiteSelect");
-}
-
 
 function changeBg(){
     var canvas = document.getElementById("canvas");
